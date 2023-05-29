@@ -1,6 +1,7 @@
-# RecipeApp is command-line application written in C# that allows users to enter and display recipe details.
+# RecipeApp_2.1 is the update of command-line application written in C# that allows users to enter and display recipe details.
 The application also allows users to scale the recipe quantities, reset the quantities to their original 
-values, and clear the recipe data to start over.
+values, and clear the recipe data to start over.The updated app now supports an unlimited number of recipes and
+can enter multiple recipes, and the application displays a sorted list of all recipe 
 
 Getting Started
 These instructions will guide you through compiling and running the application on your local machine.
