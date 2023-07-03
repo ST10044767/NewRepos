@@ -31,7 +31,6 @@ dotnet run
 Follow the prompts to enter recipe details and perform various actions on the recipe.
 
 Usage:
-
 Upon running the application, you will be prompted to enter the details of your recipe, 
 including the number of ingredients, the name, quantity, and unit of measurement for each ingredient,
 the number of steps, and a description of each step.
