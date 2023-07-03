@@ -1,7 +1,6 @@
-# RecipeApp_2.1 is the update of command-line application written in C# that allows users to enter and display recipe details.
+# RecipeApp is a update to command-line application written in C# that allows users to enter and display recipe details.
 The application also allows users to scale the recipe quantities, reset the quantities to their original 
-values, and clear the recipe data to start over.The updated app now supports an unlimited number of recipes and
-can enter multiple recipes, and the application displays a sorted list of all recipe 
+values, and clear the recipe data to start over.The updated app and has a GUI for a more user-friendly program
 
 Getting Started
 These instructions will guide you through compiling and running the application on your local machine.
@@ -46,7 +45,16 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 
 
+GitHub repository
+https://github.com/ST10044767/RecipeApp.git
 
-//metja@91
+
+//Changes based on feedback
+
+I changed the structure of the menu and put the clear recipe,scale recipe and reset recipe in a sub menu under displayRecipe.
+I changed number of elements of the arrays depents on nuIngredients and numStep.Created a new method for clearRecipe.
+The application now supports an unlimited number of recipes by using a List to store Recipe objects. Each Recipe object contains a name, a List of ingredients (with additional properties for calories and food group), and a List of steps.
+The user can enter multiple recipes, and the application displays a sorted list of all recipes in alphabetical order. The user can select a recipe to display its details, including ingredients, steps, total calories (calculated using a delegate), and a warning if the total calories exceed 300.
+Overall, the code has been refactored to use delegates, generic collections, and appropriate data structures to handle the expanded functionality of managing multiple recipes with additional ingredient properties.
 
 
